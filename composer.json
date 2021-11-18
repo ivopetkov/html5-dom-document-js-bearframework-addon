@@ -1,0 +1,31 @@
+{
+    "name": "ivopetkov/html5-dom-document-js-bearframework-addon",
+    "description": "HTML5 DOM Document JS addon for Bear Framework",
+    "keywords": [
+        "html5",
+        "dom",
+        "Bear Framework addon"
+    ],
+    "homepage": "https://github.com/ivopetkov/html5-dom-document-js-bearframework-addon",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivo Petkov",
+            "email": "ivo@ivopetkov.com",
+            "homepage": "http://ivopetkov.com"
+        }
+    ],
+    "require": {
+        "php": "7.1.*|7.2.*|7.3.*|7.4.*|8.0.*",
+        "bearframework/bearframework": "1.*",
+        "ivopetkov/client-packages-bearframework-addon": "1.*"
+    },
+    "require-dev": {
+        "bearframework/addon-tests": "1.*"
+    },
+    "autoload": {
+        "files": [
+            "autoload.php"
+        ]
+    }
+}
