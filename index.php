@@ -13,7 +13,7 @@ $app = App::get();
 $context = $app->contexts->get(__DIR__);
 
 $app->clientPackages
-    ->add('html5DOMDocument', function (IvoPetkov\BearFrameworkAddons\ClientPackage $package) use ($context) {
+    ->add('html5DOMDocument', function (IvoPetkov\BearFrameworkAddons\ClientPackage $package) use ($context): void {
         $package->addJSCode(require_once __DIR__ . '/assets/html5DOMDocument.min.js.php');
         $package->get = 'return html5DOMDocument;';
     });
